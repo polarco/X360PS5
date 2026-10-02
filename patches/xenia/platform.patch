@@ -1,0 +1,14 @@
+diff --git a/src/xenia/base/platform.h b/src/xenia/base/platform.h
+--- a/src/xenia/base/platform.h
++++ b/src/xenia/base/platform.h
+@@ -27,7 +27,9 @@
+ #include <TargetConditionals.h>
+ #endif
+ 
+-#if defined(TARGET_OS_MAC) && TARGET_OS_MAC
++#if defined(__PROSPERO__)
++#define XE_PLATFORM_PS5 1
++#elif defined(TARGET_OS_MAC) && TARGET_OS_MAC
+ #define XE_PLATFORM_MAC 1
+ #elif defined(WIN32) || defined(_WIN32)
+ #define XE_PLATFORM_WIN32 1

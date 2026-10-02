@@ -1,0 +1,12 @@
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Configuring done (0.3s)
+-- Generating done (3.8s)
+-- Build files have been written to: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/build/xenia-ps5
+ninja: no work to do.
+shaders/probe.comp
+wrote 24268868 bytes: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/build/ps5/eboot.elf
+sha256 304873ccf43fc08c17989f500560f2816cb823c6f42dacbd1657e7562fb5c5f1
+wrote 23791722 bytes: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/dist/PPSA99361/eboot.bin
+sha256 1ed541e48d24b3e0e64c39d24471b6a5d89bfa4565093ee49e11da0464efa380
+PS5 diagnostic built: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/dist/PPSA99361 (hardware untested)

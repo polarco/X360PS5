@@ -1,0 +1,18 @@
+file: eboot.bin
+container: signed, plaintext
+segments: 12
+authority: 0x3100000000000002
+program type: 0x0000000000000001
+app version: 0x0000000000000000
+firmware version: 0x0000000000000000
+digest: 100444122105a44415d0d9fe9e539a6ab1c8139b631b4ae2d3a1b4c958ed8222
+integrity: valid
+file: libc.prx
+container: signed, plaintext
+segments: 12
+authority: 0x3100000000000002
+program type: 0x0000000000000001
+app version: 0x0000000000000000
+firmware version: 0x0000000000000000
+digest: 8ee6e124993e1af26420cb455890fd002f5d6c7e78883c860ce45734e7d002bb
+integrity: valid

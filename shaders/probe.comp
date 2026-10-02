@@ -1,0 +1,4 @@
+#version 450
+layout(local_size_x=64) in;
+layout(set=0,binding=0,std430) buffer Data { uint values[]; } data;
+void main() { uint i=gl_GlobalInvocationID.x; data.values[i]=(i*1664525u+1013904223u)^0xa5a55a5au; }

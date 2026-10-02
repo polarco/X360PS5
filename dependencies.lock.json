@@ -1,0 +1,7 @@
+{
+  "boilerplate": {"url":"https://github.com/blackbearreloaded/ps5-native-app-boilerplate.git","revision":"dd44bbdc75437332ed22e3ba95126733419ef25a"},
+  "xenia": {"url":"https://github.com/xenia-canary/xenia-canary.git","revision":"b083312b8b18e07e6e410b82104191f126722794"},
+  "PS5_Vulkan": {"url":"https://github.com/mihawk-99/PS5_Vulkan.git","revision":"3f3ee69607013b345d2baa6d6a37c86745649a08"},
+  "PS5_Mesa": {"url":"https://github.com/mihawk-99/PS5_Mesa.git","revision":"0b2d6d1a61d9bbf89cf8beb88a696144f67c61f8"},
+  "PS5_PayloadSDK": {"url":"https://github.com/mihawk-99/PS5_PayloadSDK.git","revision":"95c08f27386fc698f6bbe21dde3030140a41d10b"}
+}

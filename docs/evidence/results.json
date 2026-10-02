@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "host_tests": "APROVADO",
+  "ppc_cases": [
+    42,
+    4,
+    0
+  ],
+  "ppc_lifecycle_repeats": 3,
+  "same_environment_binary_reproduction": "APROVADO",
+  "ps5_runtime": "NAO TESTADO",
+  "vulkan_presentation": "NAO TESTADO",
+  "binaries": {
+    "dist/PPSA99361/eboot.bin": "1ed541e48d24b3e0e64c39d24471b6a5d89bfa4565093ee49e11da0464efa380",
+    "dist/PPSA99361/sce_module/libc.prx": "e6ff45d16adf687855cc3b33b0c8a4132b6504360b221e0a34c7e99fb3ba0036"
+  }
+}

@@ -1,0 +1,53 @@
+cmake -S . -B build/host -G Ninja -DCMAKE_CXX_COMPILER=clang++-19
+-- Configuring done (0.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/build/host
+cmake --build build/host -j 4
+[1/3] Building CXX object CMakeFiles/x360ps5-host.dir/src/diagnostics.cpp.o
+[2/3] Building CXX object CMakeFiles/x360ps5-host.dir/src/gpu_probe.cpp.o
+[3/3] Linking CXX executable x360ps5-host
+ctest --test-dir build/host --output-on-failure
+Test project /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/build/host
+    Start 1: diagnostic_host
+1/2 Test #1: diagnostic_host ...................   Passed    0.35 sec
+    Start 2: xenia_memory_adapter_host_model
+2/2 Test #2: xenia_memory_adapter_host_model ...   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.38 sec
+cmake -S tools/xenia-core -B build/xenia-host -G Ninja -DCMAKE_C_COMPILER=clang-19 -DCMAKE_CXX_COMPILER=clang++-19
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Configuring done (0.3s)
+-- Generating done (3.8s)
+-- Build files have been written to: /mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/build/xenia-host
+cmake --build build/xenia-host -j 4
+[1/4] Building CXX object CMakeFiles/xenia-ppc-probe.dir/mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/src/diagnostics.cpp.o
+[2/4] Building CXX object CMakeFiles/xenia-ppc-probe.dir/mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/src/gpu_probe.cpp.o
+[3/4] Building CXX object CMakeFiles/xenia-ppc-probe.dir/mnt/c/Users/Polarco/Documents/ChatGPT/Xbox/src/xenia_core_probe.cpp.o
+[4/4] Linking CXX executable xenia-ppc-probe
+timeout 60 build/xenia-host/xenia-ppc-probe build/host/logs
+1265676254 X360PS5 0.1.0 environment=HOST
+1265677380 dependencies=boilerplate=dd44bbdc75437332ed22e3ba95126733419ef25a;xenia=b083312b8b18e07e6e410b82104191f126722794;PS5_Vulkan=3f3ee69607013b345d2baa6d6a37c86745649a08;PS5_Mesa=0b2d6d1a61d9bbf89cf8beb88a696144f67c61f8;PS5_PayloadSDK=95c08f27386fc698f6bbe21dde3030140a41d10b
+1265678104 target firmware=13.60 Relapse (user supplied; not automatically verified)
+1265678775 runtime model/firmware/HEN: tester must include these in the report
+1265680484 END filesystem APROVADO log write/flush/reopen/read: build/host/logs/run-583-1265674552-0.log
+1265681540 Xenia lifecycle iteration=1
+1265682184 BEGIN xenia_ppc (missing END means interrupted, never passed)
+1265692727 PPC case=0 r3=42 expected=42
+1265693390 PPC case=1 r3=4 expected=4
+1265694364 PPC case=2 r3=0 expected=0
+1265695023 END xenia_ppc APROVADO Xenia PPC frontend + x64 backend: three arithmetic programs; no Xbox kernel or GPU
+1265697090 Xenia lifecycle iteration=2
+1265697837 BEGIN xenia_ppc (missing END means interrupted, never passed)
+1265702975 PPC case=0 r3=42 expected=42
+1265703622 PPC case=1 r3=4 expected=4
+1265704345 PPC case=2 r3=0 expected=0
+1265705052 END xenia_ppc APROVADO Xenia PPC frontend + x64 backend: three arithmetic programs; no Xbox kernel or GPU
+1265706336 Xenia lifecycle iteration=3
+1265706981 BEGIN xenia_ppc (missing END means interrupted, never passed)
+1265709015 PPC case=0 r3=42 expected=42
+1265709717 PPC case=1 r3=4 expected=4
+1265710516 PPC case=2 r3=0 expected=0
+1265711233 END xenia_ppc APROVADO Xenia PPC frontend + x64 backend: three arithmetic programs; no Xbox kernel or GPU
