@@ -3,8 +3,9 @@
 Implementar X360PS5 v0.1.0: protótipo nativo baseado em Xenia Canary para PS5 13.60 com Relapse.
 ## Tasks em andamento
 - Publicação inicial solicitada em `polarco/X360PS5`: preparando commit local;
-  GitHub CLI instalado no WSL, aguardando autenticação via device flow.
-  Manter v0.1.0, pois é a publicação da entrega existente, sem mudança de código.
+  GitHub CLI autenticado como polarco; repositório privado criado.
+  Após pedido de apresentação detalhada, preparar v0.1.1: correção documental
+  e versão da interface gerada pelo build; sem nova compatibilidade de emulação.
 - Builds WSL e PS5 preparados; dependências fixadas em dependencies.lock.json.
 - Diagnóstico e núcleo Xenia vinculados; validação local em docs/evidence.
 - Pendente: execução no PS5, apresentação Vulkan/pipeline gráfico e suporte
@@ -38,3 +39,13 @@ Sem suporte a callbacks de thread/mutex robusto: falha explícita. Memória
 física antecipada e decommit sem devolução são limitações registradas.
 ## Ideias para discutir com Claude
 Nenhuma colaboração solicitada.
+
+### Publicação e transparência — 2026-10-02
+README redesenhado; docs/DESENVOLVIMENTO_IA.md descreve o uso efetivo de Codex.
+Repositório: https://github.com/polarco/X360PS5 (privado).
+Validação e pré-release v0.1.1 em preparação. Dados e hashes da v0.1.0 acima são históricos.
+
+### Validação v0.1.1
+Validação local aprovada: CTest, Xenia PPC e dois builds nativos idênticos.
+Hash eboot: 36a370a7a22fab57957fa00a6fc1d74ad7788970f8c5295fc3f37d624ea65a3e.
+Links relativos do README e XML do banner verificados. Pré-release em preparação.

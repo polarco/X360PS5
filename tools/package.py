@@ -15,11 +15,13 @@ out=root/'dist'/f'X360PS5-{version}-diagnostic.zip'
 with zipfile.ZipFile(out,'w',compression=zipfile.ZIP_DEFLATED) as z:
     for path in sorted(app.rglob('*')):
         if path.is_file(): z.write(path,path.relative_to(app.parent))
-    for name in ['README.md','CHANGELOG.md','docs/TESTADOR.md','docs/REFERENCES.md','docs/VALIDACAO.md','docs/ARQUITETURA.md','dependencies.lock.json','THIRD_PARTY_NOTICES.md','LICENSE']:
+    for name in ['README.md','CHANGELOG.md','docs/TESTADOR.md','docs/REFERENCES.md','docs/VALIDACAO.md','docs/ARQUITETURA.md','docs/DESENVOLVIMENTO_IA.md','docs/assets/banner.svg','dependencies.lock.json','THIRD_PARTY_NOTICES.md','LICENSE']:
         z.write(root/name,name)
-    z.write(root/'build/ps5/inspection.txt','evidence/inspection.txt')
+    z.write(root/'build/ps5/inspection.txt','docs/evidence/inspection.txt')
     for path in (root/'docs/evidence').glob('*'):
-        if path.is_file() and path.name!='inspection.txt': z.write(path,'evidence/'+path.name)
+        if path.is_file() and path.name!='inspection.txt': z.write(path,'docs/evidence/'+path.name)
+    for name in ['ContextoGeral.md','GPTContext.md']:
+        z.write(root/name,name)
     for dependency in (root/'.deps').iterdir():
         if not dependency.is_dir(): continue
         for path in dependency.iterdir():

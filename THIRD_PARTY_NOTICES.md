@@ -17,7 +17,7 @@ Exact upstream revisions and URLs are in `dependencies.lock.json`. Build scripts
 retain corresponding upstream source in `.deps`. Do not distribute a linked
 binary alone: provide the corresponding source, modifications and build scripts,
 and retain the upstream license texts. This local package is for development;
-no external publication has been performed.
+GitHub publication was subsequently authorized by the project owner.
 
 `make package` creates a separate corresponding-source archive alongside the
 application ZIP. Keep both and SHA256SUMS together when handing off this build.

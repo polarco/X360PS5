@@ -1,4 +1,4 @@
-# Validação da 0.1.0
+# Validação da 0.1.1
 
 ## Evidências locais
 
@@ -28,7 +28,7 @@ gráfica continuam pendentes. Nenhum resultado do WSL foi promovido a resultado 
 
 Alvo informado: PS5 13.60 com Relapse, etaHEN, ShadowMountPlus e kstuff lite.
 Ainda faltam modelo e versões exatas dos componentes. A pasta de aplicativo foi
-gerada localmente; não houve instalação, envio ao console ou publicação.
+gerada localmente para a pré-release no GitHub; não houve instalação ou envio ao console.
 
 Antes de testar, seguir `TESTADOR.md`. Recolher todos os logs, último teste
 iniciado, foto da tela e identificação do ambiente. Se algum teste falhar,

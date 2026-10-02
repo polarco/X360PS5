@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 #include "diagnostics.hpp"
+#include "build_info.hpp"
 #include "demo_renderer.hpp"
 #include <array>
 #include <cstring>
@@ -76,7 +77,7 @@ void draw(ps5::demo::Canvas& c) noexcept {
     if(pressed&0x4000) execute(selection);
   }
   c.clear(Color::background);
-  c.text(70,60,"X360PS5 0 1 0",8,Color::white);
+  c.text(70,60,"X360PS5 " X360_VERSION,8,Color::white);
   c.text(70,145,"DIAGNOSTIC BUILD   PS5 13 60 RELAPSE TARGET",3,Color::cyan);
   c.text(70,205,"UP DOWN SELECT   CROSS RUN   CIRCLE CANCEL STRESS",3,Color::white);
   for(unsigned i=0;i<9;++i) {

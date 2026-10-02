@@ -5,7 +5,7 @@ authority: 0x3100000000000002
 program type: 0x0000000000000001
 app version: 0x0000000000000000
 firmware version: 0x0000000000000000
-digest: 100444122105a44415d0d9fe9e539a6ab1c8139b631b4ae2d3a1b4c958ed8222
+digest: c6bb3faa3d7b2799bf40f6547c1a8b19f3912d5c7515a280b9aba6a18d9fae67
 integrity: valid
 file: libc.prx
 container: signed, plaintext

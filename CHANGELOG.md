@@ -1,4 +1,10 @@
 # Changelog
+## 0.1.1 — 2026-10-02 — correção documental e de apresentação
+- README detalhado com banner SVG, indicadores de status, arquitetura, downloads e roadmap.
+- Declaração explícita de desenvolvimento assistido por IA e limites das evidências.
+- Versão da interface passa a usar o identificador gerado pelo build.
+- Preparação da primeira pré-release no GitHub pessoal; nenhuma nova compatibilidade de emulação é alegada.
+
 ## 0.1.0 — 2026-10-02 — feature (protótipo experimental)
 - Preparação da publicação inicial no GitHub pessoal `polarco`, autorizada pelo usuário; mesma versão do protótipo, sem alteração do binário.
 - Início do protótipo técnico X360PS5, alvo PS5 13.60 + Relapse.

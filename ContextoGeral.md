@@ -4,7 +4,7 @@ X360PS5: adaptação experimental de Xbox 360 para PS5; primeiro público é o t
 ## Objetivo atual
 Protótipo técnico nativo v0.1.0, alvo firmware 13.60 + Relapse.
 ## Estado — status, versão
-0.1.0 experimental: aplicativo diagnóstico com núcleo Xenia e RADV compilado.
+0.1.1 experimental: aplicativo diagnóstico com núcleo Xenia e RADV compilado.
 Nenhuma validação no PS5 realizada; critérios completos da v0.1.0 ainda pendentes.
 ## Stack — front, back, db, infra, integrações
 C/C++, Xenia Canary, PS5 payload SDK público, Mesa/RADV via PS5_Vulkan; Ubuntu 26.04 no WSL.
@@ -15,10 +15,11 @@ Vulkan e consolidação da plataforma. 📅 Executável homebrew 360; depois jog
 áudio e saves. Detalhes e evidências: docs/VALIDACAO.md.
 ## Decisões — decisão / motivo / impacto / quem decidiu
 2026-10-02: usuário autorizou enviar o projeto ao GitHub pessoal `polarco`.
-Destino previsto: `polarco/X360PS5`, privado por padrão; v0.1.0 experimental.
+Repositório criado: https://github.com/polarco/X360PS5 (privado).
+Publicação inicial preparada como v0.1.1, revisão documental da v0.1.0.
 Essa autorização substitui a restrição anterior de publicação para este envio;
-instalação no console continua fora do escopo. Autenticação pendente.
-Usuário aprovou port nativo com primeiro marco técnico. Revisões fixas; resultados locais separados de hardware. Sem publicação ou instalação automática no console.
+instalação no console continua fora do escopo. Autenticação polarco confirmada.
+Usuário aprovou port nativo com primeiro marco técnico. Revisões fixas; resultados locais separados de hardware. Publicação no GitHub autorizada posteriormente; sem instalação automática no console.
 ## Estrutura de pastas
 src/ aplicação; tools/ build; patches/ adaptações; tests/ testes; docs/ instruções; .deps/ fontes fixadas; dist/ artefatos.
 ## Fluxos principais
@@ -48,3 +49,8 @@ e pipeline gráfico antes de afirmar atendimento completo ao primeiro marco.
 Carregar homebrew 360, integrar GPU Xenia, áudio, controles e saves.
 ## Divisão de trabalho — Codex: / Claude:
 Codex: implementação atual. Claude: nenhuma task atribuída; não editar ClaudeContext.md.
+
+### Apresentação no GitHub — 2026-10-02
+Usuário solicitou página detalhada e bonita, com uso de IA explícito. README
+com banner SVG, status, arquitetura, roadmap, créditos e declaração de IA.
+Codex identificado como assistente usado; sem alegação de auditoria independente.
