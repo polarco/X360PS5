@@ -4,11 +4,7 @@
 
 **Pesquisa de emulação Xbox 360 nativa no PlayStation 5**
 
-![Versão](https://img.shields.io/badge/versão-0.1.1-7ee787?style=flat-square)
-![Estado](https://img.shields.io/badge/estado-protótipo_experimental-e3b341?style=flat-square)
-![Hardware](https://img.shields.io/badge/PS5-não_testado-f85149?style=flat-square)
-![IA](https://img.shields.io/badge/desenvolvimento-assistido_por_IA-a5a0ff?style=flat-square)
-![Licença](https://img.shields.io/badge/código_próprio-GPL--3.0--or--later-58a6ff?style=flat-square)
+![Versão](https://img.shields.io/badge/versão-0.1.1-7ee787?style=flat-square) ![Estado](https://img.shields.io/badge/estado-protótipo_experimental-e3b341?style=flat-square) ![Hardware](https://img.shields.io/badge/PS5-não_testado-f85149?style=flat-square) ![IA](https://img.shields.io/badge/desenvolvimento-assistido_por_IA-a5a0ff?style=flat-square) ![Licença](https://img.shields.io/badge/código_próprio-GPL--3.0--or--later-58a6ff?style=flat-square)
 
 [📦 Downloads](https://github.com/polarco/X360PS5/releases) · [🧪 Testar](docs/TESTADOR.md) · [📊 Evidências](docs/VALIDACAO.md) · [🧠 Uso de IA](docs/DESENVOLVIMENTO_IA.md) · [📝 Changelog](CHANGELOG.md)
 
