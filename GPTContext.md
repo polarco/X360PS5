@@ -58,3 +58,9 @@ contra os arquivos locais. ZIP verificado por CRC e metadados de versão.
 README remoto coincide com o local; prévia visual conferida usando o renderizador
 Markdown do GitHub. Navegador embutido sem login; verificação do remoto feita pela API autenticada.
 Este registro posterior à publicação pode deixar master à frente da tag apenas em documentação.
+
+### Visibilidade pública — 2026-10-02
+Usuário solicitou tornar o repositório público. Alteração aplicada e verificada
+como PUBLIC em https://github.com/polarco/X360PS5. Referências anteriores a
+privado descrevem o estado inicial. Alteração administrativa; versão do aplicativo
+mantida em 0.1.1, sem novos binários ou mudanças na validação de hardware.

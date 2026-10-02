@@ -59,3 +59,9 @@ Codex identificado como assistente usado; sem alegação de auditoria independen
 https://github.com/polarco/X360PS5 (privado), pré-release v0.1.1 com aplicativo,
 fontes e SHA256SUMS. Hashes dos três assets remotos conferidos.
 Sem instalação no PS5; todas as pendências de hardware permanecem.
+
+### Visibilidade pública — 2026-10-02
+Usuário solicitou tornar o repositório público. Alteração aplicada e verificada
+como PUBLIC em https://github.com/polarco/X360PS5. Referências anteriores a
+privado descrevem o estado inicial. Alteração administrativa; versão do aplicativo
+mantida em 0.1.1, sem novos binários ou mudanças na validação de hardware.

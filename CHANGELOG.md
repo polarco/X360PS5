@@ -1,5 +1,6 @@
 # Changelog
 ## 0.1.1 — 2026-10-02 — correção documental e de apresentação
+- Repositório tornado público a pedido do usuário após a publicação inicial privada; versão e binários preservados.
 - README detalhado com banner SVG, indicadores de status, arquitetura, downloads e roadmap.
 - Declaração explícita de desenvolvimento assistido por IA e limites das evidências.
 - Versão da interface passa a usar o identificador gerado pelo build.
