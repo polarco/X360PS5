@@ -3,7 +3,7 @@
 - README detalhado com banner SVG, indicadores de status, arquitetura, downloads e roadmap.
 - Declaração explícita de desenvolvimento assistido por IA e limites das evidências.
 - Versão da interface passa a usar o identificador gerado pelo build.
-- Preparação da primeira pré-release no GitHub pessoal; nenhuma nova compatibilidade de emulação é alegada.
+- Primeira pré-release publicada em `polarco/X360PS5` (privado), com aplicativo, fontes e hashes verificados; nenhuma nova compatibilidade de emulação é alegada.
 
 ## 0.1.0 — 2026-10-02 — feature (protótipo experimental)
 - Preparação da publicação inicial no GitHub pessoal `polarco`, autorizada pelo usuário; mesma versão do protótipo, sem alteração do binário.

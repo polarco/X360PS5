@@ -16,7 +16,7 @@ Vulkan e consolidação da plataforma. 📅 Executável homebrew 360; depois jog
 ## Decisões — decisão / motivo / impacto / quem decidiu
 2026-10-02: usuário autorizou enviar o projeto ao GitHub pessoal `polarco`.
 Repositório criado: https://github.com/polarco/X360PS5 (privado).
-Publicação inicial preparada como v0.1.1, revisão documental da v0.1.0.
+Publicação inicial concluída como v0.1.1, revisão documental da v0.1.0.
 Essa autorização substitui a restrição anterior de publicação para este envio;
 instalação no console continua fora do escopo. Autenticação polarco confirmada.
 Usuário aprovou port nativo com primeiro marco técnico. Revisões fixas; resultados locais separados de hardware. Publicação no GitHub autorizada posteriormente; sem instalação automática no console.
@@ -54,3 +54,8 @@ Codex: implementação atual. Claude: nenhuma task atribuída; não editar Claud
 Usuário solicitou página detalhada e bonita, com uso de IA explícito. README
 com banner SVG, status, arquitetura, roadmap, créditos e declaração de IA.
 Codex identificado como assistente usado; sem alegação de auditoria independente.
+
+### Publicação concluída — 2026-10-02
+https://github.com/polarco/X360PS5 (privado), pré-release v0.1.1 com aplicativo,
+fontes e SHA256SUMS. Hashes dos três assets remotos conferidos.
+Sem instalação no PS5; todas as pendências de hardware permanecem.

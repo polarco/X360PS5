@@ -2,7 +2,7 @@
 ## Foco da sessão
 Implementar X360PS5 v0.1.0: protótipo nativo baseado em Xenia Canary para PS5 13.60 com Relapse.
 ## Tasks em andamento
-- Publicação inicial solicitada em `polarco/X360PS5`: preparando commit local;
+- Publicação inicial concluída em `polarco/X360PS5` (privado);
   GitHub CLI autenticado como polarco; repositório privado criado.
   Após pedido de apresentação detalhada, preparar v0.1.1: correção documental
   e versão da interface gerada pelo build; sem nova compatibilidade de emulação.
@@ -43,9 +43,18 @@ Nenhuma colaboração solicitada.
 ### Publicação e transparência — 2026-10-02
 README redesenhado; docs/DESENVOLVIMENTO_IA.md descreve o uso efetivo de Codex.
 Repositório: https://github.com/polarco/X360PS5 (privado).
-Validação e pré-release v0.1.1 em preparação. Dados e hashes da v0.1.0 acima são históricos.
+Validação e pré-release v0.1.1 concluídas. Dados e hashes da v0.1.0 acima são históricos.
 
 ### Validação v0.1.1
 Validação local aprovada: CTest, Xenia PPC e dois builds nativos idênticos.
 Hash eboot: 36a370a7a22fab57957fa00a6fc1d74ad7788970f8c5295fc3f37d624ea65a3e.
-Links relativos do README e XML do banner verificados. Pré-release em preparação.
+Links relativos do README e XML do banner verificados. Pré-release publicada.
+
+### Publicação concluída
+Repositório: https://github.com/polarco/X360PS5
+Pré-release: https://github.com/polarco/X360PS5/releases/tag/v0.1.1
+Tag v0.1.1 aponta para 1b4ea2c. Três assets presentes e SHA-256 remoto verificado
+contra os arquivos locais. ZIP verificado por CRC e metadados de versão.
+README remoto coincide com o local; prévia visual conferida usando o renderizador
+Markdown do GitHub. Navegador embutido sem login; verificação do remoto feita pela API autenticada.
+Este registro posterior à publicação pode deixar master à frente da tag apenas em documentação.
